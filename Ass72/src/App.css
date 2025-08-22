@@ -1,0 +1,169 @@
+.todo-app {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.app-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+}
+
+.refresh-btn {
+  background: #f1c40f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.refresh-btn:hover {
+  background: #e6b800;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.todo-section {
+  margin-bottom: 40px;
+}
+
+.todo-list {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+  accent-color: #f1c40f;
+}
+
+.todo-text {
+  font-size: 16px;
+  color: #666;
+}
+
+.todo-text.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.add-todo-btn {
+  background: #f1c40f;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.2s;
+}
+
+.add-todo-btn:hover {
+  background: #e6b800;
+}
+
+.add-todo-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.add-todo-input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.add-todo-input:focus {
+  border-color: #f1c40f;
+}
+
+.submit-btn {
+  background: #f1c40f;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.submit-btn:hover {
+  background: #e6b800;
+}
+
+.cancel-btn {
+  background: #ccc;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.cancel-btn:hover {
+  background: #bbb;
+}
+
+.completed-section {
+  margin-top: 40px;
+}
+
+.completed-item {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.completed-checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  accent-color: #f1c40f;
+}
+
+.completed-text {
+  color: #666;
+  font-size: 16px;
+}
+

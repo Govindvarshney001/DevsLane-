@@ -1,0 +1,53 @@
+
+.body {
+  margin: 0;
+  padding: 0;
+}
+.full-screen {
+  height: 100vh;
+  width: 100vw;
+}
+
+.flex {
+  display: flex;
+}
+.justify {
+  justify-content: center;
+}
+
+.align {
+  align-items: center;
+}
+
+.width-80 {
+  width: 80%;
+}
+.height-50 {
+  height: 50%;
+}
+.white {
+  background-color: white;
+}
+.green {
+  background-color: green;
+}
+.black {
+  color: black;
+}
+.border-black {
+  border: 5px solid black;
+}
+
+.text-xl {
+  font-size: 28px;
+}
+.bold {
+  font-weight: bold;
+}
+
+.border {
+  border: 5px dotted black;
+}
+.padding {
+  padding: 10px 20px;
+}
